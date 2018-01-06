@@ -1,0 +1,167 @@
+/*!
+ * Start Bootstrap - Modern Business HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+/* Global Styles */
+
+html,
+body {
+    height: 100%;
+}
+.navbar-brand img {
+    margin-top: -10px;
+}
+
+/************ NAVBAR *****************/
+#nav-bottom {
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+#nav-search-button {
+    width:1%; 
+    background: transparent; 
+    border: 0;
+}
+#nav-search-button span {
+    margin-left: -70px; 
+    z-index: 5; 
+    border-left: 1px solid #ddd; 
+    padding-left: 10px;
+}
+
+
+.navbar {
+    margin-bottom: 0;
+}
+/* mega menu */
+
+.nav-tabs {
+    display: inline-block;
+    border-bottom: none;
+    padding-top: 15px;
+    font-weight: bold;
+}
+.nav-tabs > li > a, 
+.nav-tabs > li > a:hover, 
+.nav-tabs > li > a:focus, 
+.nav-tabs > li.active > a, 
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus {
+    border: none;
+    border-radius: 0;
+}
+
+.nav-list { border-bottom: 1px solid #eee; }
+.nav-list > li { 
+    padding: 20px 15px 15px;
+    border-left: 1px solid #eee; 
+}
+.nav-list > li:last-child { border-right: 1px solid #eee; }
+.nav-list > li > a:hover { text-decoration: none; }
+.nav-list > li > a > span {
+    display: block;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.mega-dropdown { position: static !important; }
+.mega-dropdown-menu {
+    padding: 20px 15px 15px;
+    text-align: center;
+    width: 100%;
+}
+/********* END navbar *************/
+/* BACK TO TOP */
+#toTop{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    cursor: pointer;
+    display: none;
+}
+/* end of back to top */
+/* shoping cart */
+ul.dropdown-cart{
+    min-width:250px;
+}
+ul.dropdown-cart li .item{
+    display:block;
+    padding:3px 10px;
+    margin: 3px 0;
+}
+ul.dropdown-cart li .item:hover{
+    background-color:#f3f3f3;
+}
+ul.dropdown-cart li .item:after{
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+ul.dropdown-cart li .item-left{
+    float:left;
+}
+ul.dropdown-cart li .item-left img,
+ul.dropdown-cart li .item-left span.item-info{
+    float:left;
+}
+ul.dropdown-cart li .item-left span.item-info{
+    margin-left:10px;   
+}
+ul.dropdown-cart li .item-left span.item-info span{
+    display:block;
+}
+ul.dropdown-cart li .item-right{
+    float:right;
+}
+ul.dropdown-cart li .item-right button{
+    margin-top:14px;
+}
+/* end of shopping cart */
+
+/* label inside thumbnail. */
+.thumbnail span.label {
+    position: absolute;
+    top: -10px;
+    right: 5px;
+    z-index: 1000;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+/* end of label inside thumbnail. */
+
+.label-price {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.starrr {
+    font-size: .8em;
+   cursor: pointer;
+}
+
+.thumbnail .img-responsive {
+    max-height: 150px;
+    min-height: 150px;
+    height: 150px;
+}
+
+.single-image {
+    max-height: 300px;
+    min-height: 300px;
+    height: 300px;
+}
+.mega-dropdown-menu img {
+    max-height: 80px;
+    min-height: 80px;
+    height: 80px;
+}
+
+.thumbnail img:hover {
+    opacity: .7;
+}
